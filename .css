@@ -1,0 +1,185 @@
+/* Always On-Screen Crosshair */
+.crosshair-static[data-v-0f24d8f9] {
+    visibility: visible !important;
+    position: absolute;
+    display:flex !important;
+}
+
+
+/* Font */
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+}
+
+* {
+    font-family: gamefont;
+}
+
+#app > div.interface.text-2 > div.background{
+  background: url(https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/07.jpg?3) no-repeat center center fixed; 
+  background-size: cover;
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial{
+  display: none !important
+}
+
+.card-profile {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.select-region,
+.select-mod {
+    background: transparent !important;
+    border: none !important;
+}
+
+.inventory-card,
+.icon-btn {
+    background: transparent !important;
+    border: none !important;
+}
+
+.auth-form {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border-top: transparent !important;
+    box-shadow: none !important;
+}
+
+.change-container .gun-type:hover {
+    border: .5px solid #003dff;
+      box-shadow: 0 10px 15px rgba(0, 29, 255, .5);
+}
+
+.mWwn {
+    display: none !important;
+}
+
+.state {
+    margin-left: 36%;
+}
+
+.hp-title {
+    display: none !important;
+}
+
+.list-weapons {
+    display: none !important;
+}
+
+.hp {
+    margin-right: 20%;
+}
+
+.gun {
+    background: transparent !important;
+    border: none !important;
+}
+
+/*    Ad Removal */
+#ad-bottom, #ad-left{
+    visibility: hidden;
+}
+
+#play-btn {
+    background: rgba(68, 68, 68, .45) !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+#play-btn:hover {
+    background: rgba(66, 132, 234, .45) !important;
+}
+
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none !important;
+}
+
+.hit {
+  content: url(https://lh3.googleusercontent.com/-p8tMOHxJIME/Xyf_y159dSI/AAAAAAAADTc/UC3GDhd5YewWFTHDfJMuv2ufJKUypnKCQCK8BGAsYHg/s0/2020-08-03.gif);
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.chat {
+    margin-bottom: -4%;
+}
+
+
+.soc-group:nth-child(1) {
+    display: none;
+}
+
+.soc-group:nth-child(2) {
+    background: transparent !important;
+    border: none;
+}
+
+.soc-group:nth-child(2):hover {
+    background: rgba(66, 132, 234, .45) !important;
+    border: none;
+}
+
+.settings {
+    background: transparent !important;
+    border: none !important;
+}
+
+.settings:hover {
+    background: rgba(66, 132, 234, .45) !important;
+    border: none !important;
+}
+
+.interface .logo {
+    display: none;
+}
+
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: #0000;
+    border: none;
+    }
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: rgba(66, 132, 234, .45) !important;
+}
+
+.selected {
+    background: rgba(66, 132, 234, .45) !important;
+}
+
+[class*="achive"] {
+    content: url(https://media.discordapp.net/attachments/925436702976266324/955998219819700224/Moon.png?width=273&height=485) !important;
+    max-width: 400px       
+
+}
+
+[class*="achive"] {
+    position: relative;
+    left: 550px;
+    bottom: 150px;
+}
+
+.hp-progress {
+    background: rgba(66, 132, 234, .45) !important;
+}
+
+.desktop-game-interface .tab-info {
+  background: black;
+}
+
+.heads {
+  display: none !important;
+}
+
+.end-modal {
+    background: url(https://wallup.net/wp-content/uploads/2016/01/257274-Earth-stars-space-minimalism-748x468.jpg) !important;
+}
+
+.end-modal .bottom {
+    border-bottom: none !important;
+}
